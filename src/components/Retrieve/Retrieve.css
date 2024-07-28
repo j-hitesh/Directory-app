@@ -1,0 +1,37 @@
+.Retrieve {
+    border: 1px solid black;
+    width: 92%;
+    height: 75vh;
+  }
+  .find {
+    height: 8%;
+    width: 50%;
+  }
+  .find-form {
+    height: 100%;
+    display: flex;
+  }
+  .search-aadhar {
+    text-align: center;
+    margin-right: 2%;
+  }
+  .search-aadhar:focus {
+    outline: none;
+  }
+  .find-btn {
+    border: none;
+    background-color: tomato;
+    color: white;
+    width: 20%;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2ms;
+  }
+  .find-btn:hover{
+    box-shadow: 4px 3px 3px 3px rgba(0, 0, 0, 0.8);
+    border: 1px solid tomato;
+  }
+  .result {
+    margin: 2% 3% 0% 3%;
+    width: 92%;
+  }
